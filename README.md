@@ -4,7 +4,7 @@
 
 LittleFSConfig is an Arduino library for reading settings from a configuration file on LittleFS filesystem.
 
-It is based in SDConfigFile library by Bradford Needham (https://github.com/bneedhamia/sdconfigfile)
+It is based in SDConfig library by Fuzzer11 ([https://github.com/Fuzzer11/SDconfig])
 
 Given a configuration file with settings whose format is:
 
