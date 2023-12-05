@@ -1,5 +1,5 @@
 /*
- * Library for reading settings from a configuration file stored in a SD
+ * Library for reading settings from a configuration file stored in a LittleFS filesystem
  * Based in SDConfigFile by Bradford Needham (https://github.com/bneedhamia/sdconfigfile)
  * Licensed under LGPL version 2.1
  * a version of which should have been supplied with this file.
@@ -8,14 +8,14 @@
  *   #define SDCONFIG_DEBUG 1 // to print file error messages.
  */
 
-#ifndef SDConfig_h
-#define SDConfig_h
+#ifndef LittleFSConfig_h
+#define LittleFSConfig_h
 
 #include <Arduino.h>
-#include <SD.h>
+#include <LittleFS.h>
 #include <Ethernet.h>
 
-class SDConfig {
+class LittleFSConfig {
   private:
     File _file;            // the open configuration file
     boolean _atEnd;        // If true, there is no more of the file to read.
