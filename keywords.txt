@@ -1,4 +1,4 @@
-SDConfigFile	KEYWORD1
+LittleFSConfigFile	KEYWORD1
 begin	KEYWORD2
 end	KEYWORD2
 readNextSetting	KEYWORD2
