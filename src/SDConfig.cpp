@@ -1,6 +1,6 @@
 /*
- * Library for reading settings from a configuration file stored in a SD
- * Based in SDConfigFile by Bradford Needham (https://github.com/bneedhamia/sdconfigfile)
+ * Library for reading settings from a configuration file stored in a LittleFS filesystem
+ * Based in SDConfig library by Fuzzer11 (https://github.com/Fuzzer11/SDconfig)
  * Licensed under LGPL version 2.1
  * a version of which should have been supplied with this file.
  */
